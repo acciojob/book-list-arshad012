@@ -19,7 +19,7 @@ document.querySelector('.form-group').addEventListener('submit', (e) => {
 	td4.innerText = 'delete';
 	td4.className = 'delete';
 	td4.onclick = () => {
-		tr.parentNode.remove();
+		td4.parentNode.remove();
 	}
 	
 	tr.append(td1, td2, td3, td4);
