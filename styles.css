@@ -46,7 +46,11 @@ th,td {
 #book-list > tr {
 	background-color: lightcyan;
 }
-#book-list > tr > td:last-child {
+/* #book-list > tr > td:last-child {
 	color: red;
 	cursor: pointer;
-}
+} */
+.delete {
+	color: red;
+	cursor: pointer;
+};
