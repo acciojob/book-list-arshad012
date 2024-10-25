@@ -17,7 +17,7 @@ document.querySelector('.form-group').addEventListener('submit', (e) => {
 	td3.innerText = isbn;
 	const td4 = document.createElement('td');
 	td4.innerText = 'delete';
-	td4.style.color = 'red';
+	td.className = 'delete';
 	td4.onclick = () => {
 		tr.parentNode.remove();
 	}
