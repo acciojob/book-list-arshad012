@@ -24,15 +24,16 @@ input {
 }
 
 #submit {
-	padding: 7px 15px;
+	padding: 10px 20px;
 	border: none;
 	background-color: blue;
 	color: #fff;
+	font-size: 16px;
 	border-radius: 5px;
 	transition: all 0.1s;
 }
 #submit:active {
-	padding: 5px 12px;
+	scale: 0.9s;
 }
 
 .table {
