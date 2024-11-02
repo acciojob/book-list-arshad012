@@ -30,10 +30,10 @@ input {
 	color: #fff;
 	font-size: 16px;
 	border-radius: 5px;
-	transition: all 0.1s;
+	transition: all 0.2s;
 }
 #submit:active {
-	scale: 0.9s;
+	scale: 0.9;
 }
 
 .table {
