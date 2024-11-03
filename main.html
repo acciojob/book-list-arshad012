@@ -10,7 +10,7 @@
 <body>
 	<!-- the entire body must be written by student -->
 	<h1 class='heading'>My<span>Book</span>List</h1>
-	<div class='form-group'>
+	<form class='form-group'>
 		<label for='title'>Title</label>
 		<input id='title' type='text' placeholder='Title' required />
 		<label for='author'>Author</label>
@@ -18,7 +18,7 @@
 		<label for='isbn'>ISBN</label>
 		<input id='isbn' type='text' placeholder='ISBN' required /> <br>  <br>
 		<button id='submit' type='submit'>Add Book</button>
-	</div>
+	</form>
 
 
 	<table class='table table-striped'>
@@ -29,9 +29,7 @@
 				<th>ISBN#</th>
 			</tr>
 		</thead>
-		<tbody id='book-list'>
-			<td class='delete'>delete</td>
-		</tbody>
+		<tbody id='book-list'></tbody>
 	</table>
 	
     <script type="text/javascript" src="./script.js">
