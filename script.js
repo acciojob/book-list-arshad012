@@ -15,14 +15,18 @@ document.querySelector('.form-group').addEventListener('submit', (e) => {
 	td2.innerText = author;
 	const td3 = document.createElement('td');
 	td3.innerText = isbn;
-	const td4 = document.createElement('td');
-	td4.innerText = 'delete';
-	td4.className = 'delete';
-	td4.onclick = () => {
-		td4.parentNode.remove();
+	td3.className = 'delete';
+	td3.onclick = () => {
+		td3.parentNode.remove();
 	}
+	// const td4 = document.createElement('td');
+	// td4.innerText = 'delete';
+	// td4.className = 'delete';
+	// td4.onclick = () => {
+	// 	td4.parentNode.remove();
+	// }
 	
-	tr.append(td1, td2, td3, td4);
+	tr.append(td1, td2, td3);
 
 	book_list.append(tr);
 });
