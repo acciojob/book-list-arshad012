@@ -1,12 +1,12 @@
 //your JS code here. If required.
-document.querySelector('.form-group').addEventListener('submit', (e) => {
-	e.preventDefault();
+document.querySelector('#submit').addEventListener('click', () => {
+	// e.preventDefault();
 	const book_list = document.getElementById('book-list');
 
-	const form = document.querySelector('.form-group');
-	const name = form.title.value;
-	const author = form.author.value;
-	const isbn = form.isbn.value;
+	// const form = document.querySelector('.form-group');
+	const name = document.getElementById('title').value;
+	const author = document.getElementById('author').value;
+	const isbn = document.getElementById('isbn').value;
 
 	const tr = document.createElement('tr');
 	const td1 = document.createElement('td');
